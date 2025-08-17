@@ -3,10 +3,10 @@ import type { Presentation, UploadedImage, Slide } from '../types';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import { createRoot } from 'react-dom/client';
-import ChevronLeftIcon from './icons/ChevronLeftIcon';
-import ChevronRightIcon from './icons/ChevronRightIcon';
-import DownloadIcon from './icons/DownloadIcon';
-import LoadingSpinner from './icons/LoadingSpinner';
+import ChevronLeftIcon from '../icons/ChevronLeftIcon';
+import ChevronRightIcon from '../icons/ChevronRightIcon';
+import DownloadIcon from '../icons/DownloadIcon';
+import LoadingSpinner from '../icons/LoadingSpinner';
 
 interface PresentationViewerProps {
   presentation: Presentation;

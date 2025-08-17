@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import type { RecordingState, UploadedImage, TranscriptionMode } from '../types';
 import { transcribeAudio } from '../services/geminiService';
-import MicrophoneIcon from './icons/MicrophoneIcon';
-import StopIcon from './icons/StopIcon';
-import LoadingSpinner from './icons/LoadingSpinner';
+import MicrophoneIcon from '../icons/MicrophoneIcon';
+import StopIcon from '../icons/StopIcon';
+import LoadingSpinner from '../icons/LoadingSpinner';
 import ImageUploader from './ImageUploader';
 
 interface AudioRecorderProps {

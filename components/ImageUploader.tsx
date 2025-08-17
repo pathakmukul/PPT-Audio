@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import type { UploadedImage } from '../types';
-import XCircleIcon from './icons/XCircleIcon';
+import XCircleIcon from '../icons/XCircleIcon';
 
 interface ImageUploaderProps {
   images: UploadedImage[];

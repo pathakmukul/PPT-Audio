@@ -3,7 +3,7 @@ import type { Presentation, RecordingState, UploadedImage } from './types';
 import { generatePresentationFromText } from './services/geminiService';
 import AudioRecorder from './components/AudioRecorder';
 import PresentationViewer from './components/PresentationViewer';
-  import PresentationIcon from './components/icons/PresentationIcon';
+  import PresentationIcon from './icons/PresentationIcon';
 const App: React.FC = () => {
   const [recordingState, setRecordingState] = useState<RecordingState>('idle');
   const [transcript, setTranscript] = useState<string>('');
