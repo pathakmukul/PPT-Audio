@@ -1,20 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# PPT-Audio
 
-# Run and deploy your AI Studio app
+PPT-Audio lets you generate presentation slides directly from your voice and images.
 
-This contains everything you need to run your app locally.
+# Winner
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Y1AWrkVEqTj7CI5ObGsgT_rYJjL3TIKD
+Buildathon 2025
 
-## Run Locally
+## What does this app do?
+- Takes your voice input (choose between browser TTS or Gemini 2.5 transcription)
+- Lets you add images with descriptions—these are used as slide visuals/content
+- Instantly generates a PowerPoint (PPT) presentation from your inputted content
+- Output is fully downloadable as a PPT file
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Tech Stack
+- Built using **AI Studio**
